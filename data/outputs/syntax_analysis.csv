@@ -1,0 +1,385 @@
+﻿model,sentence_index,token,lemma,upos,xpos,deprel,head
+Greek BERT (uncased),1,Κοινό,κοινός,ADJ,ADJ,amod,πράγμα
+Greek BERT (uncased),1,πράγμα,πράγμα,NOUN,NOUN,root,ROOT
+Greek BERT (uncased),1,.,.,PUNCT,PUNCT,punct,πράγμα
+Greek BERT (uncased),1,—,—,PUNCT,PUNCT,punct,ανήκει
+Greek BERT (uncased),1,Αν,αν,SCONJ,SCONJ,mark,ανήκει
+Greek BERT (uncased),1,η,ο,DET,DET,det,κυριότητα
+Greek BERT (uncased),1,κυριότητα,κυριότητα,NOUN,NOUN,nsubj,ανήκει
+Greek BERT (uncased),1,του,ο,DET,DET,det,ακινητου
+Greek BERT (uncased),1,ακινητου,ακίνητος,NOUN,NOUN,nmod,κυριότητα
+Greek BERT (uncased),1,ανήκει,ανήκω,VERB,VERB,advcl,εφαρμόζονται
+Greek BERT (uncased),1,σε,σε,ADP,ADP,case,αδιαιρέτου
+Greek BERT (uncased),1,περισσότερους,πολύς,ADJ,ADJ,amod,μερη
+Greek BERT (uncased),1,εξ,εκ,ADP,ADP,case,αδιαιρέτου
+Greek BERT (uncased),1,αδιαιρέτου,αδιαίρετο,NOUN,NOUN,obl,ανήκει
+Greek BERT (uncased),1,κατ΄ιδανικά,κατ΄ιδανικός,ADJ,ADJ,amod,μερη
+Greek BERT (uncased),1,μερη,μερώ,NOUN,NOUN,nsubj,ανήκει
+Greek BERT (uncased),1,",",",",PUNCT,PUNCT,punct,ανήκει
+Greek BERT (uncased),1,εφαρμόζονται,εφαρμόζω,VERB,VERB,root,ROOT
+Greek BERT (uncased),1,οι,ο,DET,DET,det,διατάξεις
+Greek BERT (uncased),1,διατάξεις,διάταξη,NOUN,NOUN,nsubj:pass,εφαρμόζονται
+Greek BERT (uncased),1,για,για,ADP,ADP,case,κοινωνία
+Greek BERT (uncased),1,την,ο,DET,DET,det,κοινωνία
+Greek BERT (uncased),1,κοινωνία,κοινωνία,NOUN,NOUN,nmod,διατάξεις
+Greek BERT (uncased),1,.,.,PUNCT,PUNCT,punct,εφαρμόζονται
+Greek BERT (uncased),2,Πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek BERT (uncased),2,δουλεία,δουλεία,NOUN,NOUN,root,ROOT
+Greek BERT (uncased),2,σε,σε,ADP,ADP,case,ακινητο
+Greek BERT (uncased),2,ακινητο,ακινητο,NOUN,NOUN,nmod,δουλεία
+Greek BERT (uncased),2,η,ο,DET,DET,det,κοινού
+Greek BERT (uncased),2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Greek BERT (uncased),2,του,ο,DET,DET,det,κοινού
+Greek BERT (uncased),2,κοινού,κοινό,NOUN,NOUN,nmod,ακινητο
+Greek BERT (uncased),2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Greek BERT (uncased),2,.,.,PUNCT,PUNCT,punct,δουλεία
+Greek BERT (uncased),2,—,—,PUNCT,PUNCT,punct,μπορεί
+Greek BERT (uncased),2,Σ,σε,ADP,ADP,case,ακινητο
+Greek BERT (uncased),2,το,ο,DET,DET,det,ακινητο
+Greek BERT (uncased),2,κοινό,κοινός,ADJ,ADJ,amod,ακινητο
+Greek BERT (uncased),2,ακινητο,ακινητο,NOUN,NOUN,obl,μπορεί
+Greek BERT (uncased),2,μπορεί,μπορώ,VERB,VERB,root,ROOT
+Greek BERT (uncased),2,να,να,AUX,AUX,aux,συσταθεί
+Greek BERT (uncased),2,συσταθεί,συστείνω,VERB,VERB,xcomp,μπορεί
+Greek BERT (uncased),2,πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek BERT (uncased),2,δουλεία,δουλεία,NOUN,NOUN,nsubj:pass,συσταθεί
+Greek BERT (uncased),2,υπέρ,υπέρ,ADP,ADP,case,εκαστοτε
+Greek BERT (uncased),2,του,ο,DET,DET,det,εκαστοτε
+Greek BERT (uncased),2,εκαστοτε,εκάστοτα,NOUN,NOUN,nmod,δουλεία
+Greek BERT (uncased),2,κύριου,κύριος,NOUN,NOUN,nmod,εκαστοτε
+Greek BERT (uncased),2,άλλου,άλλος,DET,DET,det,ακινήτου
+Greek BERT (uncased),2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κύριου
+Greek BERT (uncased),2,και,και,CCONJ,CCONJ,cc,κυριος
+Greek BERT (uncased),2,αν,αν,SCONJ,SCONJ,mark,κυριος
+Greek BERT (uncased),2,ακόμη,ακόμα,ADV,ADV,advmod,αυτός
+Greek BERT (uncased),2,αυτός,αυτός,PRON,PRON,nsubj,κυριος
+Greek BERT (uncased),2,είναι,είμαι,AUX,AUX,cop,κυριος
+Greek BERT (uncased),2,κυριος,κυριος,NOUN,NOUN,advcl,μπορεί
+Greek BERT (uncased),2,του,ο,DET,DET,det,ακινήτου
+Greek BERT (uncased),2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κυριος
+Greek BERT (uncased),2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Greek BERT (uncased),2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινήτου
+Greek BERT (uncased),2,με,με,ADP,ADP,case,δουλεία
+Greek BERT (uncased),2,τη,ο,DET,DET,det,δουλεία
+Greek BERT (uncased),2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Greek BERT (uncased),2,.,.,PUNCT,PUNCT,punct,μπορεί
+Greek BERT (uncased),2,Το,ο,DET,DET,det,ίδιο
+Greek BERT (uncased),2,ίδιο,ίδιος,ADJ,ADJ,nsubj,ισχύει
+Greek BERT (uncased),2,ισχύει,ισχύω,VERB,VERB,root,ROOT
+Greek BERT (uncased),2,και,και,CCONJ,CCONJ,cc,δουλεία
+Greek BERT (uncased),2,για,για,ADP,ADP,case,δουλεία
+Greek BERT (uncased),2,την,ο,DET,DET,det,δουλεία
+Greek BERT (uncased),2,πραγματικη,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek BERT (uncased),2,δουλεία,δουλεία,NOUN,NOUN,obl,ισχύει
+Greek BERT (uncased),2,πάνω,πάνω,ADV,ADV,advmod,δουλεία
+Greek BERT (uncased),2,σε,σε,ADP,ADP,case,ακίνητο
+Greek BERT (uncased),2,ακίνητο,ακίνητος,ADJ,ADJ,obl,πάνω
+Greek BERT (uncased),2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Greek BERT (uncased),2,των,ο,DET,DET,det,κοινού
+Greek BERT (uncased),2,εκάστοτε,εκάστοτε,ADV,ADV,amod,κυρίων
+Greek BERT (uncased),2,κυρίων,κύριος,NOUN,NOUN,nmod,κοινού
+Greek BERT (uncased),2,κοινού,κοινό,NOUN,NOUN,nmod,ακίνητο
+Greek BERT (uncased),2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Greek BERT (uncased),2,",",",",PUNCT,PUNCT,punct,κύριος
+Greek BERT (uncased),2,αν,αν,SCONJ,SCONJ,mark,κύριος
+Greek BERT (uncased),2,καθενας,καθενας,PRON,PRON,nsubj,κύριος
+Greek BERT (uncased),2,από,από,ADP,ADP,case,αυτούς
+Greek BERT (uncased),2,αυτούς,αυτός,PRON,PRON,nmod,καθενας
+Greek BERT (uncased),2,είναι,είμαι,AUX,AUX,cop,κύριος
+Greek BERT (uncased),2,κύριος,κύριος,NOUN,NOUN,advcl,ισχύει
+Greek BERT (uncased),2,του,ο,DET,DET,det,ακινητου
+Greek BERT (uncased),2,ακινητου,ακίνητος,NOUN,NOUN,nmod,κύριος
+Greek BERT (uncased),2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Greek BERT (uncased),2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινητου
+Greek BERT (uncased),2,με,με,ADP,ADP,case,δουλεία
+Greek BERT (uncased),2,τη,ο,DET,DET,det,δουλεία
+Greek BERT (uncased),2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Greek BERT (uncased),2,.,.,PUNCT,PUNCT,punct,ισχύει
+Multilingual BERT,1,Κοινό,κοινός,ADJ,ADJ,amod,πράγμα
+Multilingual BERT,1,πράγμα,πράγμα,NOUN,NOUN,root,ROOT
+Multilingual BERT,1,.,.,PUNCT,PUNCT,punct,πράγμα
+Multilingual BERT,1,—,—,PUNCT,PUNCT,punct,ανήκει
+Multilingual BERT,1,Αν,αν,SCONJ,SCONJ,mark,ανήκει
+Multilingual BERT,1,η,ο,DET,DET,det,κυριότητα
+Multilingual BERT,1,κυριότητα,κυριότητα,NOUN,NOUN,nsubj,ανήκει
+Multilingual BERT,1,του,μου,PRON,PRON,nmod,κυριότητα
+Multilingual BERT,1,",",",",PUNCT,PUNCT,punct,ανήκει
+Multilingual BERT,1,ανήκει,ανήκω,VERB,VERB,advcl,εφαρμόζονται
+Multilingual BERT,1,σε,σε,ADP,ADP,case,αδιαιρέτου
+Multilingual BERT,1,περισσότερους,πολύς,ADJ,ADJ,amod,αδιαιρέτου
+Multilingual BERT,1,(,(,PUNCT,PUNCT,punct,κατ΄ιδανικά
+Multilingual BERT,1,αδιαιρέτου,αδιαίρετο,NOUN,NOUN,obl,ανήκει
+Multilingual BERT,1,κατ΄ιδανικά,κατ΄ιδανικά,ADV,ADV,nmod,αδιαιρέτου
+Multilingual BERT,1,),),PUNCT,PUNCT,punct,κατ΄ιδανικά
+Multilingual BERT,1,",",",",PUNCT,PUNCT,punct,εφαρμόζονται
+Multilingual BERT,1,εφαρμόζονται,εφαρμόζω,VERB,VERB,root,ROOT
+Multilingual BERT,1,οι,ο,DET,DET,det,διατάξεις
+Multilingual BERT,1,διατάξεις,διάταξη,NOUN,NOUN,nsubj:pass,εφαρμόζονται
+Multilingual BERT,1,για,για,ADP,ADP,case,κοινωνία
+Multilingual BERT,1,την,ο,DET,DET,det,κοινωνία
+Multilingual BERT,1,κοινωνία,κοινωνία,NOUN,NOUN,nmod,διατάξεις
+Multilingual BERT,1,.,.,PUNCT,PUNCT,punct,εφαρμόζονται
+Multilingual BERT,2,Πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Multilingual BERT,2,δουλεία,δουλεία,NOUN,NOUN,root,ROOT
+Multilingual BERT,2,σε,σε,ADP,ADP,case,κοινού
+Multilingual BERT,2,αυτή,αυτός,DET,DET,det,κοινού
+Multilingual BERT,2,η,ο,DET,DET,det,κοινού
+Multilingual BERT,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Multilingual BERT,2,του,ο,DET,DET,det,κοινού
+Multilingual BERT,2,κοινού,κοινό,NOUN,NOUN,obl,δουλεία
+Multilingual BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Multilingual BERT,2,.,.,PUNCT,PUNCT,punct,δουλεία
+Multilingual BERT,2,—,—,PUNCT,PUNCT,punct,μπορεί
+Multilingual BERT,2,Σ,σε,ADP,ADP,case,κοινό
+Multilingual BERT,2,το,ο,DET,DET,det,κοινό
+Multilingual BERT,2,κοινό,κοινό,NOUN,NOUN,obl,μπορεί
+Multilingual BERT,2,αυτό,αυτός,DET,DET,det,κοινό
+Multilingual BERT,2,μπορεί,μπορώ,VERB,VERB,root,ROOT
+Multilingual BERT,2,να,να,AUX,AUX,aux,συσταθεί
+Multilingual BERT,2,συσταθεί,συστείνω,VERB,VERB,xcomp,μπορεί
+Multilingual BERT,2,πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Multilingual BERT,2,δουλεία,δουλεία,NOUN,NOUN,nsubj:pass,συσταθεί
+Multilingual BERT,2,υπέρ,υπέρ,ADP,ADP,case,κύριου
+Multilingual BERT,2,του,ο,DET,DET,det,κύριου
+Multilingual BERT,2,ενός,ένας,DET,DET,det,κύριου
+Multilingual BERT,2,κύριου,κύριος,NOUN,NOUN,nmod,δουλεία
+Multilingual BERT,2,άλλου,άλλος,DET,DET,det,ακινήτου
+Multilingual BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κύριου
+Multilingual BERT,2,και,και,CCONJ,CCONJ,cc,μέρος
+Multilingual BERT,2,αν,αν,SCONJ,SCONJ,mark,μέρος
+Multilingual BERT,2,ακόμη,ακόμα,ADV,ADV,advmod,αυτός
+Multilingual BERT,2,αυτός,αυτός,PRON,PRON,nsubj,μέρος
+Multilingual BERT,2,είναι,είμαι,AUX,AUX,cop,μέρος
+Multilingual BERT,2,μέρος,μέρος,NOUN,NOUN,advcl,μπορεί
+Multilingual BERT,2,του,ο,DET,DET,det,ακινήτου
+Multilingual BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,μέρος
+Multilingual BERT,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Multilingual BERT,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινήτου
+Multilingual BERT,2,με,με,ADP,ADP,case,δουλεία
+Multilingual BERT,2,τη,ο,DET,DET,det,δουλεία
+Multilingual BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Multilingual BERT,2,.,.,PUNCT,PUNCT,punct,μπορεί
+Multilingual BERT,2,Το,ο,DET,DET,det,ίδιο
+Multilingual BERT,2,ίδιο,ίδιος,ADJ,ADJ,nsubj,ισχύει
+Multilingual BERT,2,ισχύει,ισχύω,VERB,VERB,root,ROOT
+Multilingual BERT,2,και,και,CCONJ,CCONJ,cc,δουλεία
+Multilingual BERT,2,για,για,ADP,ADP,case,δουλεία
+Multilingual BERT,2,την,ο,DET,DET,det,δουλεία
+Multilingual BERT,2,άλλη,άλλος,DET,DET,det,δουλεία
+Multilingual BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,ισχύει
+Multilingual BERT,2,πάνω,πάνω,ADV,ADV,advmod,δουλεία
+Multilingual BERT,2,σε,σε,ADP,ADP,case,ακίνητο
+Multilingual BERT,2,ακίνητο,ακίνητος,ADJ,ADJ,obl,πάνω
+Multilingual BERT,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Multilingual BERT,2,των,ο,DET,DET,det,κοινού
+Multilingual BERT,2,εκάστοτε,εκάστοτε,ADV,ADV,amod,κυρίων
+Multilingual BERT,2,κυρίων,κύριος,NOUN,NOUN,nmod,κοινού
+Multilingual BERT,2,κοινού,κοινό,NOUN,NOUN,nmod,ακίνητο
+Multilingual BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Multilingual BERT,2,",",",",PUNCT,PUNCT,punct,κύριος
+Multilingual BERT,2,αν,αν,SCONJ,SCONJ,mark,κύριος
+Multilingual BERT,2,ένας,ένας,NUM,NUM,nsubj,κύριος
+Multilingual BERT,2,από,από,ADP,ADP,case,αυτούς
+Multilingual BERT,2,αυτούς,αυτός,PRON,PRON,nmod,ένας
+Multilingual BERT,2,είναι,είμαι,AUX,AUX,cop,κύριος
+Multilingual BERT,2,κύριος,κύριος,NOUN,NOUN,advcl,ισχύει
+Multilingual BERT,2,του,μου,PRON,PRON,nmod,κύριος
+Multilingual BERT,2,άλλο,άλλος,PRON,PRON,nsubj,κύριος
+Multilingual BERT,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Multilingual BERT,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,άλλο
+Multilingual BERT,2,με,με,ADP,ADP,case,δουλεία
+Multilingual BERT,2,τη,ο,DET,DET,det,δουλεία
+Multilingual BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Multilingual BERT,2,.,.,PUNCT,PUNCT,punct,ισχύει
+Greek Legal BERT,1,Κοινό,κοινός,ADJ,ADJ,amod,πράγμα
+Greek Legal BERT,1,πράγμα,πράγμα,NOUN,NOUN,root,ROOT
+Greek Legal BERT,1,.,.,PUNCT,PUNCT,punct,πράγμα
+Greek Legal BERT,1,—,—,PUNCT,PUNCT,punct,ανήκει
+Greek Legal BERT,1,Αν,αν,SCONJ,SCONJ,mark,ανήκει
+Greek Legal BERT,1,η,ο,DET,DET,det,κυριότητα
+Greek Legal BERT,1,κυριότητα,κυριότητα,NOUN,NOUN,nsubj,ανήκει
+Greek Legal BERT,1,του,ο,DET,DET,det,αιγιαλου
+Greek Legal BERT,1,αιγιαλου,αιγίαλος,NOUN,NOUN,nmod,κυριότητα
+Greek Legal BERT,1,ανήκει,ανήκω,VERB,VERB,advcl,εφαρμόζονται
+Greek Legal BERT,1,σε,σε,ADP,ADP,case,προσωπα
+Greek Legal BERT,1,περισσότερους,πολύς,ADJ,ADJ,amod,προσωπα
+Greek Legal BERT,1,εξ,εκ,ADP,ADP,case,αδιαιρέτου
+Greek Legal BERT,1,αδιαιρέτου,αδιαίρετο,NOUN,NOUN,obl,ανήκει
+Greek Legal BERT,1,κατ΄ιδανικά,κατ΄ιδανικός,ADJ,ADJ,amod,προσωπα
+Greek Legal BERT,1,προσωπα,προσωπό,NOUN,NOUN,obl,ανήκει
+Greek Legal BERT,1,",",",",PUNCT,PUNCT,punct,ανήκει
+Greek Legal BERT,1,εφαρμόζονται,εφαρμόζω,VERB,VERB,root,ROOT
+Greek Legal BERT,1,οι,ο,DET,DET,det,διατάξεις
+Greek Legal BERT,1,διατάξεις,διάταξη,NOUN,NOUN,nsubj:pass,εφαρμόζονται
+Greek Legal BERT,1,για,για,ADP,ADP,case,κοινωνία
+Greek Legal BERT,1,την,ο,DET,DET,det,κοινωνία
+Greek Legal BERT,1,κοινωνία,κοινωνία,NOUN,NOUN,nmod,διατάξεις
+Greek Legal BERT,1,.,.,PUNCT,PUNCT,punct,εφαρμόζονται
+Greek Legal BERT,2,Πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek Legal BERT,2,δουλεία,δουλεία,NOUN,NOUN,root,ROOT
+Greek Legal BERT,2,σε,σε,ADP,ADP,case,ακινητο
+Greek Legal BERT,2,ακινητο,ακινητο,NOUN,NOUN,nmod,δουλεία
+Greek Legal BERT,2,η,ο,DET,DET,det,κοινού
+Greek Legal BERT,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Greek Legal BERT,2,του,ο,DET,DET,det,κοινού
+Greek Legal BERT,2,κοινού,κοινό,NOUN,NOUN,nmod,ακινητο
+Greek Legal BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Greek Legal BERT,2,.,.,PUNCT,PUNCT,punct,δουλεία
+Greek Legal BERT,2,—,—,PUNCT,PUNCT,punct,μπορεί
+Greek Legal BERT,2,Σ,σε,ADP,ADP,case,ακινητο
+Greek Legal BERT,2,το,ο,DET,DET,det,ακινητο
+Greek Legal BERT,2,κοινό,κοινός,ADJ,ADJ,amod,ακινητο
+Greek Legal BERT,2,ακινητο,ακινητο,NOUN,NOUN,obl,μπορεί
+Greek Legal BERT,2,μπορεί,μπορώ,VERB,VERB,root,ROOT
+Greek Legal BERT,2,να,να,AUX,AUX,aux,συσταθεί
+Greek Legal BERT,2,συσταθεί,συστείνω,VERB,VERB,xcomp,μπορεί
+Greek Legal BERT,2,πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek Legal BERT,2,δουλεία,δουλεία,NOUN,NOUN,nsubj:pass,συσταθεί
+Greek Legal BERT,2,υπέρ,υπέρ,ADP,ADP,case,εκαστοτε
+Greek Legal BERT,2,του,ο,DET,DET,det,εκαστοτε
+Greek Legal BERT,2,εκαστοτε,εκάστοτα,NOUN,NOUN,nmod,δουλεία
+Greek Legal BERT,2,κύριου,κύριος,NOUN,NOUN,nmod,εκαστοτε
+Greek Legal BERT,2,άλλου,άλλος,DET,DET,det,ακινήτου
+Greek Legal BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κύριου
+Greek Legal BERT,2,και,και,CCONJ,CCONJ,cc,κυριος
+Greek Legal BERT,2,αν,αν,SCONJ,SCONJ,mark,κυριος
+Greek Legal BERT,2,ακόμη,ακόμα,ADV,ADV,advmod,αυτός
+Greek Legal BERT,2,αυτός,αυτός,PRON,PRON,nsubj,κυριος
+Greek Legal BERT,2,είναι,είμαι,AUX,AUX,cop,κυριος
+Greek Legal BERT,2,κυριος,κυριος,NOUN,NOUN,advcl,μπορεί
+Greek Legal BERT,2,του,ο,DET,DET,det,ακινήτου
+Greek Legal BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κυριος
+Greek Legal BERT,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Greek Legal BERT,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινήτου
+Greek Legal BERT,2,με,με,ADP,ADP,case,δουλεία
+Greek Legal BERT,2,τη,ο,DET,DET,det,δουλεία
+Greek Legal BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Greek Legal BERT,2,.,.,PUNCT,PUNCT,punct,μπορεί
+Greek Legal BERT,2,Το,ο,DET,DET,det,ίδιο
+Greek Legal BERT,2,ίδιο,ίδιος,ADJ,ADJ,nsubj,ισχύει
+Greek Legal BERT,2,ισχύει,ισχύω,VERB,VERB,root,ROOT
+Greek Legal BERT,2,και,και,CCONJ,CCONJ,cc,δουλεία
+Greek Legal BERT,2,για,για,ADP,ADP,case,δουλεία
+Greek Legal BERT,2,την,ο,DET,DET,det,δουλεία
+Greek Legal BERT,2,πραγματικη,πραγματικός,ADJ,ADJ,amod,δουλεία
+Greek Legal BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,ισχύει
+Greek Legal BERT,2,πάνω,πάνω,ADV,ADV,advmod,δουλεία
+Greek Legal BERT,2,σε,σε,ADP,ADP,case,ακίνητο
+Greek Legal BERT,2,ακίνητο,ακίνητος,ADJ,ADJ,obl,πάνω
+Greek Legal BERT,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+Greek Legal BERT,2,των,ο,DET,DET,det,κοινού
+Greek Legal BERT,2,εκάστοτε,εκάστοτε,ADV,ADV,amod,κυρίων
+Greek Legal BERT,2,κυρίων,κύριος,NOUN,NOUN,nmod,κοινού
+Greek Legal BERT,2,κοινού,κοινό,NOUN,NOUN,nmod,ακίνητο
+Greek Legal BERT,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+Greek Legal BERT,2,",",",",PUNCT,PUNCT,punct,κύριος
+Greek Legal BERT,2,αν,αν,SCONJ,SCONJ,mark,κύριος
+Greek Legal BERT,2,καθενας,καθενας,PRON,PRON,nsubj,κύριος
+Greek Legal BERT,2,από,από,ADP,ADP,case,αυτούς
+Greek Legal BERT,2,αυτούς,αυτός,PRON,PRON,nmod,καθενας
+Greek Legal BERT,2,είναι,είμαι,AUX,AUX,cop,κύριος
+Greek Legal BERT,2,κύριος,κύριος,NOUN,NOUN,advcl,ισχύει
+Greek Legal BERT,2,του,ο,DET,DET,det,ακινητου
+Greek Legal BERT,2,ακινητου,ακίνητος,NOUN,NOUN,nmod,κύριος
+Greek Legal BERT,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+Greek Legal BERT,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινητου
+Greek Legal BERT,2,με,με,ADP,ADP,case,δουλεία
+Greek Legal BERT,2,τη,ο,DET,DET,det,δουλεία
+Greek Legal BERT,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+Greek Legal BERT,2,.,.,PUNCT,PUNCT,punct,ισχύει
+XLM-RoBERTa,1,Κοινό,κοινός,ADJ,ADJ,amod,πράγμα
+XLM-RoBERTa,1,πράγμα,πράγμα,NOUN,NOUN,root,ROOT
+XLM-RoBERTa,1,.,.,PUNCT,PUNCT,punct,πράγμα
+XLM-RoBERTa,1,—,—,PUNCT,PUNCT,punct,ανήκει
+XLM-RoBERTa,1,Αν,αν,SCONJ,SCONJ,mark,ανήκει
+XLM-RoBERTa,1,η,ο,DET,DET,det,κυριότητα
+XLM-RoBERTa,1,κυριότητα,κυριότητα,NOUN,NOUN,nsubj,ανήκει
+XLM-RoBERTa,1,του,ο,DET,DET,det,κράτους
+XLM-RoBERTa,1,κράτους,κράτος,NOUN,NOUN,nmod,κυριότητα
+XLM-RoBERTa,1,ανήκει,ανήκω,VERB,VERB,advcl,εφαρμόζονται
+XLM-RoBERTa,1,σε,σε,ADP,ADP,case,αδιαιρέτου
+XLM-RoBERTa,1,περισσότερους,πολύς,ADJ,ADJ,amod,αδιαιρέτου
+XLM-RoBERTa,1,του,ο,DET,DET,det,αδιαιρέτου
+XLM-RoBERTa,1,αδιαιρέτου,αδιαίρετο,NOUN,NOUN,obl,ανήκει
+XLM-RoBERTa,1,κατ΄ιδανικά,κατ΄ιδανικά,ADV,ADV,advmod,ανήκει
+XLM-RoBERTa,1,",",",",PUNCT,PUNCT,punct,ανήκει
+XLM-RoBERTa,1,",",",",PUNCT,PUNCT,punct,εφαρμόζονται
+XLM-RoBERTa,1,εφαρμόζονται,εφαρμόζω,VERB,VERB,root,ROOT
+XLM-RoBERTa,1,οι,ο,DET,DET,det,διατάξεις
+XLM-RoBERTa,1,διατάξεις,διάταξη,NOUN,NOUN,nsubj:pass,εφαρμόζονται
+XLM-RoBERTa,1,για,για,ADP,ADP,case,κοινωνία
+XLM-RoBERTa,1,την,ο,DET,DET,det,κοινωνία
+XLM-RoBERTa,1,κοινωνία,κοινωνία,NOUN,NOUN,nmod,διατάξεις
+XLM-RoBERTa,1,.,.,PUNCT,PUNCT,punct,εφαρμόζονται
+XLM-RoBERTa,2,Πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+XLM-RoBERTa,2,δουλεία,δουλεία,NOUN,NOUN,root,ROOT
+XLM-RoBERTa,2,σε,σε,ADP,ADP,case,σπίτι
+XLM-RoBERTa,2,σπίτι,σπίτι,NOUN,NOUN,nmod,δουλεία
+XLM-RoBERTa,2,η,ο,DET,DET,det,κοινού
+XLM-RoBERTa,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+XLM-RoBERTa,2,του,ο,DET,DET,det,κοινού
+XLM-RoBERTa,2,κοινού,κοινό,NOUN,NOUN,nmod,σπίτι
+XLM-RoBERTa,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+XLM-RoBERTa,2,.,.,PUNCT,PUNCT,punct,δουλεία
+XLM-RoBERTa,2,—,—,PUNCT,PUNCT,punct,μπορεί
+XLM-RoBERTa,2,Σ,σε,ADP,ADP,case,σπίτι
+XLM-RoBERTa,2,το,ο,DET,DET,det,σπίτι
+XLM-RoBERTa,2,κοινό,κοινός,ADJ,ADJ,amod,σπίτι
+XLM-RoBERTa,2,σπίτι,σπίτι,NOUN,NOUN,obl,μπορεί
+XLM-RoBERTa,2,μπορεί,μπορώ,VERB,VERB,root,ROOT
+XLM-RoBERTa,2,να,να,AUX,AUX,aux,συσταθεί
+XLM-RoBERTa,2,συσταθεί,συστείνω,VERB,VERB,xcomp,μπορεί
+XLM-RoBERTa,2,πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+XLM-RoBERTa,2,δουλεία,δουλεία,NOUN,NOUN,nsubj:pass,συσταθεί
+XLM-RoBERTa,2,υπέρ,υπέρ,ADP,ADP,case,κύριου
+XLM-RoBERTa,2,του,ο,DET,DET,det,κύριου
+XLM-RoBERTa,2,ενός,ένας,DET,DET,det,κύριου
+XLM-RoBERTa,2,κύριου,κύριος,NOUN,NOUN,nmod,δουλεία
+XLM-RoBERTa,2,άλλου,άλλος,DET,DET,det,ακινήτου
+XLM-RoBERTa,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κύριου
+XLM-RoBERTa,2,και,και,CCONJ,CCONJ,cc,ακινήτου
+XLM-RoBERTa,2,αν,αν,SCONJ,SCONJ,mark,κύριο
+XLM-RoBERTa,2,ακόμη,ακόμα,ADV,ADV,advmod,αν
+XLM-RoBERTa,2,αυτός,αυτός,PRON,PRON,nsubj,κύριο
+XLM-RoBERTa,2,είναι,είμαι,AUX,AUX,cop,κύριο
+XLM-RoBERTa,2,κύριο,κύριος,ADJ,ADJ,advcl,μπορεί
+XLM-RoBERTa,2,του,ο,DET,DET,det,ακινήτου
+XLM-RoBERTa,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κύριο
+XLM-RoBERTa,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+XLM-RoBERTa,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,ακινήτου
+XLM-RoBERTa,2,με,με,ADP,ADP,case,δουλεία
+XLM-RoBERTa,2,τη,ο,DET,DET,det,δουλεία
+XLM-RoBERTa,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+XLM-RoBERTa,2,.,.,PUNCT,PUNCT,punct,μπορεί
+XLM-RoBERTa,2,Το,ο,DET,DET,det,ίδιο
+XLM-RoBERTa,2,ίδιο,ίδιος,ADJ,ADJ,nsubj,ισχύει
+XLM-RoBERTa,2,ισχύει,ισχύω,VERB,VERB,root,ROOT
+XLM-RoBERTa,2,και,και,CCONJ,CCONJ,cc,δουλεία
+XLM-RoBERTa,2,για,για,ADP,ADP,case,δουλεία
+XLM-RoBERTa,2,την,ο,DET,DET,det,δουλεία
+XLM-RoBERTa,2,πραγματική,πραγματικός,ADJ,ADJ,amod,δουλεία
+XLM-RoBERTa,2,δουλεία,δουλεία,NOUN,NOUN,obl,ισχύει
+XLM-RoBERTa,2,πάνω,πάνω,ADV,ADV,advmod,δουλεία
+XLM-RoBERTa,2,σε,σε,ADP,ADP,case,ακίνητο
+XLM-RoBERTa,2,ακίνητο,ακίνητος,ADJ,ADJ,obl,πάνω
+XLM-RoBERTa,2,υπέρ,υπέρ,ADP,ADP,case,κοινού
+XLM-RoBERTa,2,των,ο,DET,DET,det,κοινού
+XLM-RoBERTa,2,εκάστοτε,εκάστοτε,ADV,ADV,amod,κυρίων
+XLM-RoBERTa,2,κυρίων,κύριος,NOUN,NOUN,nmod,κοινού
+XLM-RoBERTa,2,κοινού,κοινό,NOUN,NOUN,nmod,ακίνητο
+XLM-RoBERTa,2,ακινήτου,ακίνητος,NOUN,NOUN,nmod,κοινού
+XLM-RoBERTa,2,",",",",PUNCT,PUNCT,punct,κύριος
+XLM-RoBERTa,2,αν,αν,SCONJ,SCONJ,mark,κύριος
+XLM-RoBERTa,2,ένας,ένας,NUM,NUM,nsubj,κύριος
+XLM-RoBERTa,2,από,από,ADP,ADP,case,αυτούς
+XLM-RoBERTa,2,αυτούς,αυτός,PRON,PRON,nmod,ένας
+XLM-RoBERTa,2,είναι,είμαι,AUX,AUX,cop,κύριος
+XLM-RoBERTa,2,κύριος,κύριος,NOUN,NOUN,advcl,ισχύει
+XLM-RoBERTa,2,του,ο,DET,DET,det,κοινού
+XLM-RoBERTa,2,κοινού,κοινό,NOUN,NOUN,nmod,κύριος
+XLM-RoBERTa,2,που,που,PRON,PRON,nsubj:pass,βαρύνεται
+XLM-RoBERTa,2,βαρύνεται,βαρύνω,VERB,VERB,acl:relcl,κοινού
+XLM-RoBERTa,2,με,με,ADP,ADP,case,δουλεία
+XLM-RoBERTa,2,τη,ο,DET,DET,det,δουλεία
+XLM-RoBERTa,2,δουλεία,δουλεία,NOUN,NOUN,obl,βαρύνεται
+XLM-RoBERTa,2,.,.,PUNCT,PUNCT,punct,ισχύει

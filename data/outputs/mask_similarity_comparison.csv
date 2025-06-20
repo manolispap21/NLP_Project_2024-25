@@ -1,0 +1,41 @@
+﻿model,sentence,mask_index,predicted,ground_truth,exact_match_no_tonos,cosine_similarity
+Greek BERT (uncased),sentence_1,1,ακινητου,πράγματος,False,0.8273
+Greek BERT (uncased),sentence_1,2,εξ,εξ,True,1.0
+Greek BERT (uncased),sentence_2,1,ακινητο,βάρος,False,0.9268
+Greek BERT (uncased),sentence_2,2,ακινητο,ακίνητο,True,1.0
+Greek BERT (uncased),sentence_2,3,εκαστοτε,εκάστοτε,True,1.0
+Greek BERT (uncased),sentence_2,4,κυριος,συγκύριος,False,0.873
+Greek BERT (uncased),sentence_2,5,πραγματικη,δουλεία,False,0.6977
+Greek BERT (uncased),sentence_2,6,καθενας,από,False,0.9016
+Greek BERT (uncased),sentence_2,7,ακινητου,που,False,0.8711
+Multilingual BERT,sentence_1,1,",",πράγματος,False,0.8712
+Multilingual BERT,sentence_1,2,(,εξ,False,0.798
+Multilingual BERT,sentence_2,1,αυτή,βάρος,False,0.7369
+Multilingual BERT,sentence_2,2,αυτό,ακίνητο,False,0.9069
+Multilingual BERT,sentence_2,3,ενός,εκάστοτε,False,0.8955
+Multilingual BERT,sentence_2,4,μέρος,συγκύριος,False,0.9495
+Multilingual BERT,sentence_2,5,άλλη,δουλεία,False,0.7803
+Multilingual BERT,sentence_2,6,ένας,από,False,0.8338
+Multilingual BERT,sentence_2,7,άλλο,που,False,0.7945
+Greek Legal BERT,sentence_1,1,αιγιαλου,πράγματος,False,0.7913
+Greek Legal BERT,sentence_1,2,εξ,εξ,True,1.0
+Greek Legal BERT,sentence_2,1,ακινητο,βάρος,False,0.9268
+Greek Legal BERT,sentence_2,2,ακινητο,ακίνητο,True,1.0
+Greek Legal BERT,sentence_2,3,εκαστοτε,εκάστοτε,True,1.0
+Greek Legal BERT,sentence_2,4,κυριος,συγκύριος,False,0.873
+Greek Legal BERT,sentence_2,5,πραγματικη,δουλεία,False,0.6977
+Greek Legal BERT,sentence_2,6,καθενας,από,False,0.9016
+Greek Legal BERT,sentence_2,7,ακινητου,που,False,0.8711
+XLM-RoBERTa,sentence_1,1,κράτους,πράγματος,False,0.6037
+XLM-RoBERTa,sentence_1,2,του,εξ,False,0.8948
+XLM-RoBERTa,sentence_2,1,σπίτι,βάρος,False,0.5029
+XLM-RoBERTa,sentence_2,2,σπίτι,ακίνητο,False,0.5031
+XLM-RoBERTa,sentence_2,3,ενός,εκάστοτε,False,0.8955
+XLM-RoBERTa,sentence_2,4,κύριο,συγκύριος,False,0.8834
+XLM-RoBERTa,sentence_2,5,πραγματική,δουλεία,False,0.6977
+XLM-RoBERTa,sentence_2,6,ένας,από,False,0.8338
+XLM-RoBERTa,sentence_2,7,κοινού,που,False,0.9379
+Greek BERT (uncased),SUMMARY,,,,,0.8997222222222222
+Greek Legal BERT,SUMMARY,,,,,0.8957222222222223
+Multilingual BERT,SUMMARY,,,,,0.8407333333333333
+XLM-RoBERTa,SUMMARY,,,,,0.750311111111111
