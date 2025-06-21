@@ -1,0 +1,9 @@
+id,type,similarity
+sentence1.txt,sentence,0.9515152
+sentence2.txt,sentence,0.9614026
+text1-P1_t5,text,0.9983306
+text1-P2_backtranslation,text,0.97524977
+text1-P3_pegasus,text,0.93990386
+text2-P1_t5,text,0.98153734
+text2-P2_backtranslation,text,0.917413
+text2-P3_pegasus,text,0.89240783

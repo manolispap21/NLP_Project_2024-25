@@ -7,43 +7,46 @@ from sentence_transformers import SentenceTransformer
 from sklearn.decomposition import PCA
 from sklearn.metrics.pairwise import cosine_similarity
 
-nltk.download('punkt')
-nltk.download('stopwords')
-stop_words = set(stopwords.words('english'))
+nltk.download("punkt")
+nltk.download("stopwords")
+stop_words = set(stopwords.words("english"))
 
-# Preprocessor
 def preprocess(text):
     text = text.lower()
-    text = re.sub(r'[^\w\s]', '', text)
+    text = re.sub(r"[^\w\s]", "", text)
     tokens = word_tokenize(text)
-    return ' '.join(t for t in tokens if t not in stop_words)
+    return " ".join(t for t in tokens if t not in stop_words)
 
-# Υπολογισμός ενσωματώσεων και cosine similarity
-def compute_similarity_and_embeddings(data_dict):
+def compute_combined_similarity(data_1a, data_1b):
     model = SentenceTransformer("all-mpnet-base-v2")
-    results = []
-    all_texts = []
+    embeddings = []
     labels = []
+    similarities = []
 
-    for text_key, versions in data_dict.items():
-        original = preprocess(versions["original"])
-        emb_orig = model.encode(original)
-        row = {"Text": text_key}
-        all_texts.append(original)
-        labels.append(f"{text_key}-Original")
+    # Προτάσεις 1A
+    for key, versions in data_1a.items():
+        orig = preprocess(versions["original"])
+        rew = preprocess(versions["rewritten"])
+        emb_orig = model.encode(orig)
+        emb_rew = model.encode(rew)
+        sim = cosine_similarity([emb_orig], [emb_rew])[0][0]
+        embeddings.extend([emb_orig, emb_rew])
+        labels.extend([f"{key}-original", f"{key}-rewritten"])
+        similarities.append({"id": key, "type": "sentence", "similarity": sim})
 
-        for key, val in versions.items():
-            if key == "original":
+    # Κείμενα 1B
+    for key, versions in data_1b.items():
+        orig = preprocess(versions["original"])
+        emb_orig = model.encode(orig)
+        for name, val in versions.items():
+            if name == "original":
                 continue
-            processed = preprocess(val)
-            emb = model.encode(processed)
-            sim = cosine_similarity([emb_orig], [emb])[0][0]
-            row[key] = sim
-            all_texts.append(processed)
-            labels.append(f"{text_key}-{key}")
+            mod = preprocess(val)
+            emb_mod = model.encode(mod)
+            sim = cosine_similarity([emb_orig], [emb_mod])[0][0]
+            embeddings.extend([emb_orig, emb_mod])
+            labels.extend([f"{key}-original", f"{key}-{name}"])
+            similarities.append({"id": f"{key}-{name}", "type": "text", "similarity": sim})
 
-        results.append(row)
-
-    embeddings = model.encode(all_texts)
     coords = PCA(n_components=2).fit_transform(embeddings)
-    return results, coords, labels
+    return coords, labels, similarities

@@ -1,46 +1,40 @@
-# runner.py
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
-from .pipeline import compute_similarity_and_embeddings
+from .pipeline import compute_combined_similarity
 
 def run_similarity_analysis(data_path="data/outputs/outputs.json"):
-    # Φόρτωση JSON
     data = json.load(open(Path(data_path), encoding="utf-8"))
 
-    if "1B" not in data:
-        raise ValueError("JSON is empty for 1B.")
+    if "1A" not in data or "1B" not in data:
+        print("1A or 1B not found in JSON.")
+        return
 
-    results, coords, labels = compute_similarity_and_embeddings(data["1B"])
-    df = pd.DataFrame(results)
-
-    # Εμφάνιση πίνακα στο terminal
     print("\nCosine Similarity (Original vs Reconstructions):")
-    print(df.to_string(index=False))
 
-    # Αποθήκευση CSV με similarity scores
-    sim_path = Path("data/outputs/similarity_scores.csv")
-    df.to_csv(sim_path, index=False)
+    coords, labels, similarities = compute_combined_similarity(data["1A"], data["1B"])
+
+    # Αποθήκευση similarity scores
+    df_sim = pd.DataFrame(similarities)
+    sim_path = Path("data/outputs/similarity.csv")
+    df_sim.to_csv(sim_path, index=False)
     print(f"Similarity scores saved to: {sim_path}")
 
-    # Οπτικοποίηση PCA
+    # Οπτικοποίηση
     plt.figure(figsize=(9, 6))
     for i, label in enumerate(labels):
         x, y = coords[i]
         plt.scatter(x, y)
-        plt.annotate(label, (x + 0.015, y + 0.015), fontsize=9)
+        plt.annotate(label, (x + 0.01, y + 0.01), fontsize=8)
 
-    plt.title("PCA Projection of Embeddings (Original vs Reconstructions)")
+    plt.title("Semantic Space (Originals vs Reconstructions)")
     plt.xlabel("PC1")
     plt.ylabel("PC2")
     plt.grid(True)
     plt.tight_layout()
 
-    # Αποθήκευση εικόνας
-    img_path = Path("data/outputs/pca_similarity_plot.png")
+    img_path = Path("data/outputs/semantic_space.png")
     plt.savefig(img_path, dpi=300, bbox_inches="tight")
     plt.show()
-    print(f"\nPCA plot saved to: {img_path}")
-
-    return df
+    print(f"PCA unified plot saved to: {img_path}")
